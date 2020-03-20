@@ -1,3 +1,6 @@
+//orm.js is the logic of the whole application
+
+//import MySql connection
 var connection = require("../config/connection");
 
 function createQmarks(num) {
@@ -22,17 +25,14 @@ function translateSql(ob) {
     return arr.toString();
 }
 
+//creatibg a orm var. this will have all of our selection and query
 var orm = {
     selectAll: function(table, cb) {
         var dbQuery = "SELECT * FROM " + table + ";";
-
-        connection.query(dbQuery, function(err, res) {
-            if (err) {
-                throw err;
-            }
-            cb(res);
-        });
+        connection.query(dbQuery, cb);
     },
+
+    //here we use the insertOne to insert our insert function
     insertOne: function(table, cols, vals, cb) {
         var dbQuery =
             "INSERT INTO " +
@@ -83,3 +83,5 @@ var orm = {
     }
 };
 module.exports = orm;
+
+//

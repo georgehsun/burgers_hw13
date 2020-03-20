@@ -1,0 +1,11 @@
+  
+{{!-- Code using the column burger_name and the establishing an id and if burger has been eaten or not --}}
+
+<li>
+	{{burger_name}}
+	
+	{{#unless devour}}
+	{{!-- devour = attribute true --}}
+	<button class="change-state" data-id="{{id}}" data-newState="{{devour}}">Devour it!</button>
+	{{/unless}}
+</li>

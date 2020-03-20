@@ -1,4 +1,7 @@
+//requiring our dependencies
 const mysql = require("mysql");
+
+//create our conneciton to the database
 if (process.env.JAWSDB_URL) {
     connection = mysql.createConnection(process.env.JAWSDB_URL);
 } else {
@@ -11,3 +14,5 @@ if (process.env.JAWSDB_URL) {
 }
 connection.connect();
 module.exports = connection;
+
+//
