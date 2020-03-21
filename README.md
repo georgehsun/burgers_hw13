@@ -13,4 +13,4 @@ bootstrap
 
 
 
-https://github.com/georgehsun/burgers_hw13/issues/2#issue-585543494
+![sreenshot1](https://github.com/georgehsun/burgers_hw13/issues/2#issue-585543494)
