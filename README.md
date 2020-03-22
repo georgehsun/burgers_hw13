@@ -13,4 +13,4 @@ bootstrap
 
 
 
-!["sreenshot1](https://github.com/georgehsun/burgers_hw13/issues/4#issue-585635498)
+![sreenshot1](https://github.com/georgehsun/burgers_hw13/issues/4#issue-585635498)
