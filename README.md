@@ -11,16 +11,3 @@ mySQL
 Visual studio code
 bootstrap
 
-
-<!-- 
-![sreenshot1](https://github.com/georgehsun/burgers_hw13/issues/4#issue-585635498) -->
-
-<<<<<<< HEAD
-screenshot.png
-
-![sreenshot1](https://github.com/georgehsun/burgers_hw13/screenshot.png)
-=======
-!["sreenshot1](https://github.com/georgehsun/burgers_hw13/issues/4#issue-585635498)
-
-
->>>>>>> a3fab27b26a6930b447876f727882d7176a7b733
