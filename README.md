@@ -16,4 +16,3 @@ bootstrap
 !["sreenshot1](https://github.com/georgehsun/burgers_hw13/issues/4#issue-585635498)
 
 
-https://github.com/georgehsun/burgers_hw13/Screen Shot 2020-03-21 at 12.31.15 PM.png
